@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "772DB52F-72CE-4D66-A456-71F8EB9E5145"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0430407-2720-4D20-B859-916B5F1F169A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReverseKGroup/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "reverseKGroup(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC268673-A70A-4017-83EC-1B8D4C0D2110"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReverseKGroup/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "reverseKGroup(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DC268673-A70A-4017-83EC-1B8D4C0D2110 - 3a86b31b08c785ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReverseKGroup.Solution.reverseKGroup(Swift.Optional&lt;ReverseKGroup.ListNode&gt;, Swift.Int) -&gt; Swift.Optional&lt;ReverseKGroup.ListNode&gt;"
+                  moduleName = "ReverseKGroup"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/nowcoder/List/ReverseKGroup/ReverseKGroup/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1188">
+               </Location>
+               <Location
+                  uuid = "DC268673-A70A-4017-83EC-1B8D4C0D2110 - 3a86b31b08c785ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReverseKGroup.Solution.reverseKGroup(Swift.Optional&lt;ReverseKGroup.ListNode&gt;, Swift.Int) -&gt; Swift.Optional&lt;ReverseKGroup.ListNode&gt;"
+                  moduleName = "ReverseKGroup"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/nowcoder/List/ReverseKGroup/ReverseKGroup/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1240">
+               </Location>
+               <Location
+                  uuid = "DC268673-A70A-4017-83EC-1B8D4C0D2110 - 3a86b31b08c785ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReverseKGroup.Solution.reverseKGroup(Swift.Optional&lt;ReverseKGroup.ListNode&gt;, Swift.Int) -&gt; Swift.Optional&lt;ReverseKGroup.ListNode&gt;"
+                  moduleName = "ReverseKGroup"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/nowcoder/List/ReverseKGroup/ReverseKGroup/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
