@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FE41F174-CA07-408D-8881-C6B894FE0C2F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC0F06FD-B95A-432C-AE21-D795AAC95E92"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AddInList/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "addInList(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EC0F06FD-B95A-432C-AE21-D795AAC95E92 - 9be1c56b49c0ca79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AddInList.Solution.addInList(Swift.Optional&lt;AddInList.ListNode&gt;, Swift.Optional&lt;AddInList.ListNode&gt;) -&gt; Swift.Optional&lt;AddInList.ListNode&gt;"
+                  moduleName = "AddInList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/nowcoder/List/AddInList/AddInList/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1440">
+               </Location>
+               <Location
+                  uuid = "EC0F06FD-B95A-432C-AE21-D795AAC95E92 - 9be1c56b49c0ca79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AddInList.Solution.addInList(Swift.Optional&lt;AddInList.ListNode&gt;, Swift.Optional&lt;AddInList.ListNode&gt;) -&gt; Swift.Optional&lt;AddInList.ListNode&gt;"
+                  moduleName = "AddInList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/nowcoder/List/AddInList/AddInList/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1376">
+               </Location>
+               <Location
+                  uuid = "EC0F06FD-B95A-432C-AE21-D795AAC95E92 - 9be1c56b49c0ca79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AddInList.Solution.addInList(Swift.Optional&lt;AddInList.ListNode&gt;, Swift.Optional&lt;AddInList.ListNode&gt;) -&gt; Swift.Optional&lt;AddInList.ListNode&gt;"
+                  moduleName = "AddInList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/nowcoder/List/AddInList/AddInList/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1372">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
