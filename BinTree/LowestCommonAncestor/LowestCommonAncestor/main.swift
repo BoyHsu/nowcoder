@@ -30,58 +30,71 @@ public class Solution {
      * @return int整型
      */
     func lowestCommonAncestor(_ root: TreeNode?, _ p: Int, _ q: Int) -> Int {
-        var queue = [root!]
-        var paths = [[root!.val]]
-        var pPath: [Int]? = root?.val == p ? [root!.val] : nil
-        var qPath: [Int]? = root?.val == q ? [root!.val] : nil
-        
-        while !queue.isEmpty {
-            var nextLevel = [TreeNode]()
-            var nextLevelPaths = [[Int]]()
-            
-            func add(_ treeNode: TreeNode?, _ path: [Int]) {
-                if let n = treeNode {
-                    nextLevel.append(n)
-                    var path = path
-                    path.append(n.val)
-                    
-                    if n.val == p {
-                        pPath = path
-                    } else if n.val == q {
-                        qPath = path
-                    }
-                    
-                    nextLevelPaths.append(path)
-                }
-            }
-            
-            for i in queue.indices {
-                let node = queue[i]
-                let path = paths[i]
-                
-                add(node.left, path)
-                add(node.right, path)
-            }
-            
-            if pPath != nil && qPath != nil {
-                break
-            }
-            
-            queue = nextLevel
-            paths = nextLevelPaths
+        guard let root = root else {
+            return -1
         }
         
-        var last: Int? = nil
-        if let pPath = pPath, let qPath = qPath {
-            for i in 0..<min(pPath.count, qPath.count) {
-                if pPath[i] != qPath[i] {
-                    break
-                }
-                last = pPath[i]
-            }
+        if root.val > p, root.val > q {
+            return lowestCommonAncestor(root.left, p, q)
+        } else if root.val < p, root.val < q {
+            return lowestCommonAncestor(root.right, p, q)
+        } else {
+            return root.val
         }
-        return last ?? 0
     }
+//    func lowestCommonAncestor(_ root: TreeNode?, _ p: Int, _ q: Int) -> Int {
+//        var queue = [root!]
+//        var paths = [[root!.val]]
+//        var pPath: [Int]? = root?.val == p ? [root!.val] : nil
+//        var qPath: [Int]? = root?.val == q ? [root!.val] : nil
+//
+//        while !queue.isEmpty {
+//            var nextLevel = [TreeNode]()
+//            var nextLevelPaths = [[Int]]()
+//
+//            func add(_ treeNode: TreeNode?, _ path: [Int]) {
+//                if let n = treeNode {
+//                    nextLevel.append(n)
+//                    var path = path
+//                    path.append(n.val)
+//
+//                    if n.val == p {
+//                        pPath = path
+//                    } else if n.val == q {
+//                        qPath = path
+//                    }
+//
+//                    nextLevelPaths.append(path)
+//                }
+//            }
+//
+//            for i in queue.indices {
+//                let node = queue[i]
+//                let path = paths[i]
+//
+//                add(node.left, path)
+//                add(node.right, path)
+//            }
+//
+//            if pPath != nil && qPath != nil {
+//                break
+//            }
+//
+//            queue = nextLevel
+//            paths = nextLevelPaths
+//        }
+//
+//        var last: Int? = nil
+//        if let pPath = pPath, let qPath = qPath {
+//            for i in 0..<min(pPath.count, qPath.count) {
+//                if pPath[i] != qPath[i] {
+//                    break
+//                }
+//                last = pPath[i]
+//            }
+//        }
+//        return last ?? 0
+//    }
 }
 
 func rootNode(_ nums: [Int?]) -> TreeNode? {
@@ -118,5 +131,7 @@ func rootNode(_ nums: [Int?]) -> TreeNode? {
 
 let s = Solution()
 //{3,1,4,#,2},2,3
-assert(s.lowestCommonAncestor(rootNode([3,1,4,nil,2]), 2, 3) == 3)
+//assert(s.lowestCommonAncestor(rootNode([3,1,4,nil,2]), 2, 3) == 3)
+//{7,1,12,0,4,11,14,#,#,3,5},12,11
+assert(s.lowestCommonAncestor(rootNode([7,1,12,0,4,11,14,nil,nil,3,5]), 12, 11) == 12)
 print("done")
