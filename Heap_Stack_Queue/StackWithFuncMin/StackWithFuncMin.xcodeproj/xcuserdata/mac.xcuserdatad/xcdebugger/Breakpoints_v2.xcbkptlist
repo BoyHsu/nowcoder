@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C1A2FD43-A160-4046-9238-FD3EDC64D122"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7191CDA0-A2EB-4805-8C9A-CC6341900AA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StackWithFuncMin/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "indexGreaterThan(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7191CDA0-A2EB-4805-8C9A-CC6341900AA8 - 2b4fbcb58ff19933"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StackWithFuncMin.Solution.indexGreaterThan(Swift.Int) -&gt; Swift.Int"
+                  moduleName = "StackWithFuncMin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/nowcoder/Heap_Stack_Queue/StackWithFuncMin/StackWithFuncMin/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1420">
+               </Location>
+               <Location
+                  uuid = "7191CDA0-A2EB-4805-8C9A-CC6341900AA8 - 2b4fbcb58ff19933"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StackWithFuncMin.Solution.indexGreaterThan(Swift.Int) -&gt; Swift.Int"
+                  moduleName = "StackWithFuncMin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/nowcoder/Heap_Stack_Queue/StackWithFuncMin/StackWithFuncMin/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1424">
+               </Location>
+               <Location
+                  uuid = "7191CDA0-A2EB-4805-8C9A-CC6341900AA8 - 63770fc9c7cbe44b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StackWithFuncMin.Solution.indexInSorted(Swift.Int) -&gt; Swift.Int"
+                  moduleName = "StackWithFuncMin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/nowcoder/Heap_Stack_Queue/StackWithFuncMin/StackWithFuncMin/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
