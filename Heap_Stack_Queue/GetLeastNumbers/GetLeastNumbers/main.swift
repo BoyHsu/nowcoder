@@ -35,6 +35,8 @@ public class Solution {
             }
         }
         return res
+        
+        // return Array(input.sorted()[0..<k])
     }
 }
 
