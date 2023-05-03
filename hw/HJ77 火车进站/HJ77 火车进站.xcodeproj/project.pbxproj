@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		045B76942A025B41004C3391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045B76932A025B41004C3391 /* main.m */; };
+		045B76B42A0265D2004C3391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045B76B32A0265D2004C3391 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		045B768E2A025B41004C3391 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		045B76AD2A02659B004C3391 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		045B76902A025B41004C3391 /* HJ77 火车进站 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HJ77 火车进站"; sourceTree = BUILT_PRODUCTS_DIR; };
 		045B76932A025B41004C3391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045B76B12A02659B004C3391 /* HJ77 火车进站_优化 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HJ77 火车进站_优化"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045B76B32A0265D2004C3391 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		045B768D2A025B41004C3391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B76AC2A02659B004C3391 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +60,7 @@
 		045B76872A025B41004C3391 = {
 			isa = PBXGroup;
 			children = (
+				045B76B22A0265D2004C3391 /* HJ77 火车进站_优化 */,
 				045B76922A025B41004C3391 /* HJ77 火车进站 */,
 				045B76912A025B41004C3391 /* Products */,
 			);
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				045B76902A025B41004C3391 /* HJ77 火车进站 */,
+				045B76B12A02659B004C3391 /* HJ77 火车进站_优化 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				045B76932A025B41004C3391 /* main.m */,
 			);
 			path = "HJ77 火车进站";
+			sourceTree = "<group>";
+		};
+		045B76B22A0265D2004C3391 /* HJ77 火车进站_优化 */ = {
+			isa = PBXGroup;
+			children = (
+				045B76B32A0265D2004C3391 /* main.m */,
+			);
+			path = "HJ77 火车进站_优化";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +109,23 @@
 			name = "HJ77 火车进站";
 			productName = "HJ77 火车进站";
 			productReference = 045B76902A025B41004C3391 /* HJ77 火车进站 */;
+			productType = "com.apple.product-type.tool";
+		};
+		045B76A92A02659B004C3391 /* HJ77 火车进站_优化 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045B76AE2A02659B004C3391 /* Build configuration list for PBXNativeTarget "HJ77 火车进站_优化" */;
+			buildPhases = (
+				045B76AA2A02659B004C3391 /* Sources */,
+				045B76AC2A02659B004C3391 /* Frameworks */,
+				045B76AD2A02659B004C3391 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HJ77 火车进站_优化";
+			productName = "HJ77 火车进站";
+			productReference = 045B76B12A02659B004C3391 /* HJ77 火车进站_优化 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -110,6 +156,7 @@
 			projectRoot = "";
 			targets = (
 				045B768F2A025B41004C3391 /* HJ77 火车进站 */,
+				045B76A92A02659B004C3391 /* HJ77 火车进站_优化 */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +167,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				045B76942A025B41004C3391 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B76AA2A02659B004C3391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B76B42A0265D2004C3391 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +310,26 @@
 			};
 			name = Release;
 		};
+		045B76AF2A02659B004C3391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32UR38A9MG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		045B76B02A02659B004C3391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32UR38A9MG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -272,6 +347,15 @@
 			buildConfigurations = (
 				045B76982A025B41004C3391 /* Debug */,
 				045B76992A025B41004C3391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045B76AE2A02659B004C3391 /* Build configuration list for PBXNativeTarget "HJ77 火车进站_优化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045B76AF2A02659B004C3391 /* Debug */,
+				045B76B02A02659B004C3391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
